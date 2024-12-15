@@ -66,6 +66,51 @@ namespace ForumApp.Controllers
             return RedirectToAction("Details", new { id = parentId });
         }
 
+        // GET: Comentarios/Edit
+        public ActionResult Edit(int id)
+        {
+            var comentario = _comentarios.FirstOrDefault(c => c.Id == id);
+            if (comentario == null)
+                return HttpNotFound();
+
+            return View(comentario);
+        }
+
+        // POST: Comentarios/Edit
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(int id, [Bind(Include = "Texto")] Comentario comentarioAtualizado)
+        {
+            var comentario = _comentarios.FirstOrDefault(c => c.Id == id);
+            if (comentario == null)
+                return HttpNotFound();
+
+            if (ModelState.IsValid)
+            {
+                comentario.Texto = comentarioAtualizado.Texto;
+                return RedirectToAction("Index");
+            }
+            return View(comentario);
+        }
+
+        // POST: Comentarios/Delete
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            var comentario = _comentarios.FirstOrDefault(c => c.Id == id);
+            if (comentario != null)
+            {
+                // Remove o comentário e todas as suas respostas
+                var todasRespostas = _comentarios.Where(c => c.ComentarioId == id).ToList();
+                foreach (var resposta in todasRespostas)
+                {
+                    _comentarios.Remove(resposta);
+                }
+                _comentarios.Remove(comentario);
+            }
+            return RedirectToAction("Index");
+        }
 
 
     }

@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|solutionrelative:views\\comentarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\views\\comentarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|solutionrelative:views\\comentarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\views\\comentarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|solutionrelative:views\\comentarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\views\\comentarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|solutionrelative:views\\comentarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,8 +54,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Comentarios\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Comentarios\\Edit.cshtml",
+              "ToolTip": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Comentarios\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Comentarios\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T20:58:05.27Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -60,40 +77,40 @@
               "RelativeDocumentMoniker": "Views\\Comentarios\\Details.cshtml",
               "ToolTip": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Comentarios\\Details.cshtml",
               "RelativeToolTip": "Views\\Comentarios\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-15T20:41:15.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Comentarios\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Comentarios\\Create.cshtml",
               "ToolTip": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Comentarios\\Create.cshtml",
               "RelativeToolTip": "Views\\Comentarios\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-15T20:37:18.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAuwGoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T19:49:20.557Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Comentario.cs",
               "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Models\\Comentario.cs",
               "RelativeDocumentMoniker": "Models\\Comentario.cs",
@@ -106,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Comentarios\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Comentarios\\Index.cshtml",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
@@ -132,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
@@ -145,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Web.config",
               "RelativeDocumentMoniker": "Web.config",
@@ -158,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Global.asax.cs",
               "RelativeDocumentMoniker": "Global.asax.cs",
@@ -171,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "favicon.ico - Icon [16x16, 32 bit, BMP]",
               "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\favicon.ico",
               "RelativeDocumentMoniker": "favicon.ico",
