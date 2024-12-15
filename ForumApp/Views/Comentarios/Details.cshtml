@@ -1,0 +1,60 @@
+﻿@model ForumApp.Models.Comentario
+
+<h2>Detalhes do Comentário</h2>
+
+<div class="comentario-detalhes">
+    <div class="comentario-principal">
+        <h3>@Model.Autor</h3>
+        <p>@Model.DataCriacao.ToString("dd/MM/yyyy HH:mm")</p>
+        <div class="texto">
+            @Model.Texto
+        </div>
+    </div>
+
+    <h4>Respostas</h4>
+
+    @using (Html.BeginForm("CreateReply", "Comentarios", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.Hidden("parentId", Model.Id)
+
+        <div class="form-group mb-3">
+            <label>Seu Nome:</label>
+            <input type="text" name="autor" class="form-control" required />
+        </div>
+
+        <div class="form-group mb-3">
+            <label>Sua Resposta:</label>
+            <textarea name="texto" class="form-control" required maxlength="500" rows="3"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Responder</button>
+    }
+
+    <div class="respostas-list mt-4">
+        @foreach (var resposta in Model.Respostas)
+        {
+            <div class="resposta-item">
+                <div class="resposta-header">
+                    <strong>@resposta.Autor</strong>
+                    <span>@resposta.DataCriacao.ToString("dd/MM/yyyy HH:mm")</span>
+                </div>
+                <div class="resposta-content">
+                    @resposta.Texto
+                </div>
+                <div class="resposta-actions">
+                    @Html.ActionLink("Editar", "Edit", new { id = resposta.Id }, new { @class = "btn btn-sm btn-warning" })
+                    @using (Html.BeginForm("Delete", "Comentarios", new { id = resposta.Id }, FormMethod.Post, new { style = "display:inline" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Confirma a exclusão?');">
+                            Excluir
+                        </button>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@Html.ActionLink("Voltar para Lista", "Index", null, new { @class = "btn btn-secondary mt-3" })

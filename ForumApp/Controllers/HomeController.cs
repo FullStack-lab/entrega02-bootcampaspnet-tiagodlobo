@@ -34,5 +34,39 @@ namespace ForumApp.Controllers
         {
             return View();
         }
+
+        // POST: Comentarios/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create([Bind(Include = "Texto,Autor")] Comentario comentario)
+        {
+            if (ModelState.IsValid)
+            {
+                comentario.Id = _nextId++;
+                comentario.DataCriacao = DateTime.Now;
+                _comentarios.Add(comentario);
+                return RedirectToAction("Index");
+            }
+            return View(comentario);
+        }
+
+        // POST: Comentarios/CreateReply
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult CreateReply(int parentId, [Bind(Include = "Texto,Autor")] Comentario comentario)
+        {
+            if (ModelState.IsValid)
+            {
+                comentario.Id = _nextId++;
+                comentario.DataCriacao = DateTime.Now;
+                comentario.ComentarioId = parentId;
+                _comentarios.Add(comentario);
+                return RedirectToAction("Details", new { id = parentId });
+            }
+            return RedirectToAction("Details", new { id = parentId });
+        }
+
+
+
     }
 }
