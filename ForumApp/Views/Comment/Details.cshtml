@@ -19,17 +19,18 @@
 
     <h4>Respostas</h4>
 
-    @using (Html.BeginForm("CreateReply", "Comentarios", FormMethod.Post))
+    @using (Html.BeginForm("CreateReply", "Comment", FormMethod.Post))
     {
         @Html.AntiForgeryToken()
         @Html.Hidden("comentarioId", Model.Id)
         <div class="form-group mb-3">
             <label>Seu Nome:</label>
-            <input type="text" name="autor" class="form-control" required maxlength="100" />
+            <input type="text" name="autor" class="form-control" required maxlength="100" placeholder="Digite seu nome" />
         </div>
         <div class="form-group mb-3">
             <label>Sua Resposta:</label>
-            <textarea name="texto" class="form-control" required maxlength="500" rows="3"></textarea>
+            <textarea name="texto" id="textoResposta" class="form-control" required maxlength="500" rows="3" placeholder="Digite sua resposta"></textarea>
+            <span class="text-muted small">Restam <span id="charCount">500</span> caracteres</span>
         </div>
         <button type="submit" class="btn btn-primary">Responder</button>
     }
@@ -47,7 +48,7 @@
                 </div>
                 <div class="resposta-actions">
                     @Html.ActionLink("Editar", "Edit", new { id = resposta.Id }, new { @class = "action-link" })
-                    @using (Html.BeginForm("Delete", "Comentarios", new { id = resposta.Id }, FormMethod.Post, new { style = "display:inline" }))
+                    @using (Html.BeginForm("Delete", "Comment", new { id = resposta.Id }, FormMethod.Post, new { style = "display:inline" }))
                     {
                         @Html.AntiForgeryToken()
                         <button type="submit" class="action-link delete-link" onclick="return confirm('Tem certeza que deseja excluir a resposta?');">
@@ -61,3 +62,20 @@
 </div>
 
 @Html.ActionLink("Voltar para Lista", "Index", null, new { @class = "btn btn-secondary mt-3" })
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var textarea = $('#textoResposta');
+            var maxLength = parseInt(textarea.attr('maxlength'));
+            var charCount = $('#charCount');
+
+            charCount.text(maxLength - textarea.val().length);
+
+            textarea.on('input', function () {
+                var remaining = maxLength - $(this).val().length;
+                charCount.text(remaining);
+            });
+        });
+    </script>
+}

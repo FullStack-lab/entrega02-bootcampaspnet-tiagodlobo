@@ -21,7 +21,7 @@
     }
 
 .comentario-actions {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .badge {
@@ -67,8 +67,10 @@
 .resposta-content {
     margin-bottom: 10px;
     word-wrap: break-word;
+    padding-left: 10px;
 }
 
 .resposta-actions {
     margin-top: 5px;
+    padding-left: 10px;
 }

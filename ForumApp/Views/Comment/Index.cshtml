@@ -31,7 +31,7 @@
             <div class="comentario-actions">
                 @Html.ActionLink("Responder", "Details", new { id = item.Id }, new { @class = "action-link" })
                 @Html.ActionLink("Editar", "Edit", new { id = item.Id }, new { @class = "action-link" })
-                @using (Html.BeginForm("Delete", "Comentarios", new { id = item.Id }, FormMethod.Post, new { style = "display:inline" }))
+                @using (Html.BeginForm("Delete", "Comment", new { id = item.Id }, FormMethod.Post, new { style = "display:inline" }))
                 {
                     @Html.AntiForgeryToken()
                 <button type="submit" class="action-link delete-link" onclick="return confirm('Tem certeza que deseja excluir este comentário? Todas as respostas serão excluídas também.');">
@@ -60,7 +60,7 @@
                             </div>
                             <div class="resposta-actions">
                                 @Html.ActionLink("Editar", "Edit", new { id = resposta.Id }, new { @class = "action-link" })
-                                @using (Html.BeginForm("Delete", "Comentarios", new { id = resposta.Id }, FormMethod.Post, new { style = "display:inline" }))
+                                @using (Html.BeginForm("Delete", "Comment", new { id = resposta.Id }, FormMethod.Post, new { style = "display:inline" }))
                                 {
                                     @Html.AntiForgeryToken()
                                     <button type="submit" class="action-link delete-link" onclick="return confirm('Tem certeza que deseja excluir a resposta?');">
