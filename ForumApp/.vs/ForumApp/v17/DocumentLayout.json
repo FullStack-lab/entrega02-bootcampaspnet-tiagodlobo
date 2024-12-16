@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\views\\comentarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|solutionrelative:views\\comentarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\views\\comentarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|solutionrelative:views\\comentarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\views\\comentarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,16 +15,32 @@
       "RelativeMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|solutionrelative:views\\comentarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|solutionrelative:models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\views\\comentarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|solutionrelative:views\\comentarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|solutionrelative:app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|solutionrelative:views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E5DAEB3-54E2-4CB9-A3D8-DF16BA56FD14}|ForumApp.csproj|c:\\dev\\codi\\entrega02-bootcampaspnet-tiagodlobo\\forumapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -54,17 +62,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T21:36:44.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T21:36:21.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Web.config",
+              "RelativeDocumentMoniker": "Views\\Web.config",
+              "ToolTip": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Web.config",
+              "RelativeToolTip": "Views\\Web.config",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-15T21:36:08.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T21:36:07.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Comentarios\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Comentarios\\Edit.cshtml",
               "ToolTip": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Comentarios\\Edit.cshtml",
               "RelativeToolTip": "Views\\Comentarios\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-15T20:58:05.27Z",
               "EditorCaption": ""
@@ -72,53 +132,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Comentarios\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Comentarios\\Details.cshtml",
-              "ToolTip": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Comentarios\\Details.cshtml",
-              "RelativeToolTip": "Views\\Comentarios\\Details.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADsAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-15T20:41:15.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Comentarios\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Comentarios\\Create.cshtml",
-              "ToolTip": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Comentarios\\Create.cshtml",
-              "RelativeToolTip": "Views\\Comentarios\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-15T20:37:18.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwGcAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAwA8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T19:49:20.557Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Comentarios\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Comentarios\\Index.cshtml",
               "ToolTip": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Comentarios\\Index.cshtml",
               "RelativeToolTip": "Views\\Comentarios\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAuwE8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-15T20:07:15.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Comentarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Comentarios\\Create.cshtml",
+              "ToolTip": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Comentarios\\Create.cshtml",
+              "RelativeToolTip": "Views\\Comentarios\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T20:37:18.511Z",
               "EditorCaption": ""
             },
             {
@@ -129,40 +176,27 @@
               "RelativeDocumentMoniker": "Models\\Comentario.cs",
               "ToolTip": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Models\\Comentario.cs",
               "RelativeToolTip": "Models\\Comentario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T19:29:41.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
-              "ToolTip": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "Views\\Home\\About.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Comentarios\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Comentarios\\Details.cshtml",
+              "ToolTip": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Comentarios\\Details.cshtml",
+              "RelativeToolTip": "Views\\Comentarios\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-15T20:34:05.259Z",
+              "WhenOpened": "2024-12-15T20:41:15.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-15T20:34:03.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Web.config",
               "RelativeDocumentMoniker": "Web.config",
@@ -175,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\Global.asax.cs",
               "RelativeDocumentMoniker": "Global.asax.cs",
@@ -188,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "favicon.ico - Icon [16x16, 32 bit, BMP]",
               "DocumentMoniker": "C:\\DEV\\CODI\\entrega02-bootcampaspnet-tiagodlobo\\ForumApp\\favicon.ico",
               "RelativeDocumentMoniker": "favicon.ico",
