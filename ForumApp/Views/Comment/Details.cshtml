@@ -1,4 +1,4 @@
-﻿@model ForumApp.Models.Comentario
+﻿@model ForumApp.Models.Comment
 
 @if (TempData["Message"] != null)
 {
@@ -46,12 +46,12 @@
                     @resposta.Texto
                 </div>
                 <div class="resposta-actions">
-                    @Html.ActionLink("Editar", "Edit", new { id = resposta.Id }, new { @class = "btn btn-sm btn-warning" })
+                    @Html.ActionLink("Editar", "Edit", new { id = resposta.Id }, new { @class = "action-link" })
                     @using (Html.BeginForm("Delete", "Comentarios", new { id = resposta.Id }, FormMethod.Post, new { style = "display:inline" }))
                     {
                         @Html.AntiForgeryToken()
-                        <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Confirma a exclusão?');">
-                            Excluir
+                        <button type="submit" class="action-link delete-link" onclick="return confirm('Tem certeza que deseja excluir a resposta?');">
+                            <i class="bi bi-trash-fill"></i>
                         </button>
                     }
                 </div>

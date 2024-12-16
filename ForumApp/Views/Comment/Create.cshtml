@@ -1,6 +1,6 @@
-﻿@model ForumApp.Models.Comentario
+﻿@model ForumApp.Models.Comment
 
-<h2>Editar Comentário</h2>
+<h2>Novo Comentário</h2>
 
 @using (Html.BeginForm())
 {
@@ -8,15 +8,19 @@
     <div class="form-horizontal">
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        @Html.HiddenFor(model => model.Id)
-        @Html.HiddenFor(model => model.Autor)
-        @Html.HiddenFor(model => model.DataCriacao)
-        @Html.HiddenFor(model => model.ComentarioId)
+
+        <div class="form-group mb-3">
+            @Html.LabelFor(model => model.Autor, "Seu Nome", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Autor, new { htmlAttributes = new { @class = "form-control", required = "required", maxlength = "100", placeholder = "Digite seu nome" } })
+                @Html.ValidationMessageFor(model => model.Autor, "", new { @class = "text-danger" })
+            </div>
+        </div>
 
         <div class="form-group mb-3">
             @Html.LabelFor(model => model.Texto, "Comentário", new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.TextAreaFor(model => model.Texto, new { @class = "form-control", rows = "5", maxlength = "500", required = "required" })
+                @Html.TextAreaFor(model => model.Texto, new { @class = "form-control", rows = "5", maxlength = "500", required = "required", placeholder = "Digite seu comentário" })
                 @Html.ValidationMessageFor(model => model.Texto, "", new { @class = "text-danger" })
                 <span class="text-muted small">Restam <span id="charCount">500</span> caracteres</span>
             </div>
@@ -24,7 +28,7 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Salvar" class="btn btn-primary" />
+                <input type="submit" value="Criar" class="btn btn-primary" />
                 @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-secondary" })
             </div>
         </div>

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ForumApp.Models.Comentario>
+﻿@model IEnumerable<ForumApp.Models.Comment>
 
 <h2>Comentários</h2>
 
@@ -11,7 +11,7 @@
 }
 
 <p>
-    @Html.ActionLink("Criar Novo Comentário", "Create", null, new { @class = "btn btn-primary" })
+    @Html.ActionLink("Novo Comentário", "Create", null, new { @class = "btn btn-primary" })
 </p>
 
 <div class="comentarios-list">
@@ -25,21 +25,24 @@
             <div class="comentario-content">
                 @item.Texto
                 <div class="mt-2">
-                    <span class="badge bg-secondary">
-                        @item.Respostas.Count resposta(s)
-                    </span>
+
                 </div>
             </div>
             <div class="comentario-actions">
-                @Html.ActionLink("Responder", "Details", new { id = item.Id }, new { @class = "btn btn-sm btn-info" })
-                @Html.ActionLink("Editar", "Edit", new { id = item.Id }, new { @class = "btn btn-sm btn-warning" })
+                @Html.ActionLink("Responder", "Details", new { id = item.Id }, new { @class = "action-link" })
+                @Html.ActionLink("Editar", "Edit", new { id = item.Id }, new { @class = "action-link" })
                 @using (Html.BeginForm("Delete", "Comentarios", new { id = item.Id }, FormMethod.Post, new { style = "display:inline" }))
                 {
                     @Html.AntiForgeryToken()
-                    <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Tem certeza que deseja excluir este comentário? Todas as respostas serão excluídas também.');">
-                        Excluir
-                    </button>
+                <button type="submit" class="action-link delete-link" onclick="return confirm('Tem certeza que deseja excluir este comentário? Todas as respostas serão excluídas também.');">
+                    <i class="bi bi-trash-fill"></i>
+                </button>
                 }
+            </div>
+            <div class="mt-2">
+                <span class="badge bg-primary">
+                    @item.Respostas.Count resposta(s)
+                </span>
             </div>
 
             @if (item.Respostas.Any())
@@ -56,12 +59,12 @@
                                 @resposta.Texto
                             </div>
                             <div class="resposta-actions">
-                                @Html.ActionLink("Editar", "Edit", new { id = resposta.Id }, new { @class = "btn btn-sm btn-warning" })
+                                @Html.ActionLink("Editar", "Edit", new { id = resposta.Id }, new { @class = "action-link" })
                                 @using (Html.BeginForm("Delete", "Comentarios", new { id = resposta.Id }, FormMethod.Post, new { style = "display:inline" }))
                                 {
                                     @Html.AntiForgeryToken()
-                                    <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Confirma a exclusão?');">
-                                        Excluir
+                                    <button type="submit" class="action-link delete-link" onclick="return confirm('Tem certeza que deseja excluir a resposta?');">
+                                        <i class="bi bi-trash-fill"></i>
                                     </button>
                                 }
                             </div>
@@ -72,28 +75,3 @@
         </div>
     }
 </div>
-
-<style>
-    .resposta-item {
-        border-left: 3px solid #007bff;
-        padding: 10px;
-        margin-top: 10px;
-        background-color: #f8f9fa;
-    }
-
-    .resposta-header {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 5px;
-        font-size: 0.9em;
-        color: #666;
-    }
-
-    .resposta-content {
-        margin-bottom: 10px;
-    }
-
-    .resposta-actions {
-        margin-top: 5px;
-    }
-</style>

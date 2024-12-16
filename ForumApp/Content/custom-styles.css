@@ -1,0 +1,74 @@
+﻿.action-link {
+    color: #0d6efd;
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+    .action-link:hover {
+        color: #0a58ca;
+        text-decoration: none;
+    }
+
+.delete-link {
+    color: #dc3545;
+}
+
+    .delete-link:hover {
+        color: #bb2d3b;
+    }
+
+.comentario-actions {
+    padding-left: 20px;
+}
+
+.badge {
+    background-color: #0d6efd !important;
+}
+
+.comentario-content {
+    padding-left: 10px;
+    word-wrap: break-word;
+}
+
+.comentario-item {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.comentario-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.resposta-item {
+    border-left: 3px solid #0d6efd;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #f8f9fa;
+}
+
+.resposta-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.resposta-content {
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.resposta-actions {
+    margin-top: 5px;
+}

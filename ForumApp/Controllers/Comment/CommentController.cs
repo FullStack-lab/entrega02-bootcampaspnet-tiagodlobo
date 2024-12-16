@@ -6,18 +6,18 @@ using System.Web.Mvc;
 
 namespace ForumApp.Controllers
 {
-    public class ComentariosController : Controller
+    public class CommentController : Controller
     {
-        private static List<Comentario> _comentarios = new List<Comentario>();
+        private static List<Comment> _comentarios = new List<Comment>();
         private static int _nextId = 1;
 
-        // Lista estática com dados
-        public ComentariosController()
+        // Lista estática com comnetários e respostas
+        public CommentController()
         {
             if (!_comentarios.Any())
             {
                 // Comentário 1 com respostas
-                var comentario1 = new Comentario
+                var comentario1 = new Comment
                 {
                     Id = _nextId++,
                     Autor = "Giovane Moreira",
@@ -26,7 +26,7 @@ namespace ForumApp.Controllers
                 };
                 _comentarios.Add(comentario1);
 
-                _comentarios.Add(new Comentario
+                _comentarios.Add(new Comment
                 {
                     Id = _nextId++,
                     Autor = "Stefanie Medeiros",
@@ -36,7 +36,7 @@ namespace ForumApp.Controllers
                 });
 
                 // Comentário 2 com resposta
-                var comentario2 = new Comentario
+                var comentario2 = new Comment
                 {
                     Id = _nextId++,
                     Autor = "Ana Catarina",
@@ -45,7 +45,7 @@ namespace ForumApp.Controllers
                 };
                 _comentarios.Add(comentario2);
 
-                _comentarios.Add(new Comentario
+                _comentarios.Add(new Comment
                 {
                     Id = _nextId++,
                     Autor = "Jorge Pedrosa",
@@ -63,6 +63,16 @@ namespace ForumApp.Controllers
                 .Where(c => c.ComentarioId == null)
                 .OrderByDescending(c => c.DataCriacao)
                 .ToList();
+
+            // carrega respostas do comentário
+            foreach (var comentario in comentariosPrincipais)
+            {
+                comentario.Respostas = _comentarios
+                    .Where(c => c.ComentarioId == comentario.Id)
+                    .OrderByDescending(c => c.DataCriacao)
+                    .ToList();
+            }
+
             return View(comentariosPrincipais);
         }
 
@@ -89,7 +99,7 @@ namespace ForumApp.Controllers
         // POST: Comentarios/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Texto,Autor")] Comentario comentario)
+        public ActionResult Create([Bind(Include = "Texto,Autor")] Comment comentario)
         {
             if (ModelState.IsValid)
             {
@@ -109,7 +119,7 @@ namespace ForumApp.Controllers
         {
             if (!string.IsNullOrEmpty(texto) && !string.IsNullOrEmpty(autor))
             {
-                var resposta = new Comentario
+                var resposta = new Comment
                 {
                     Id = _nextId++,
                     Texto = texto,
@@ -135,7 +145,7 @@ namespace ForumApp.Controllers
         // POST: Comentarios/Edit
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, [Bind(Include = "Texto")] Comentario comentarioAtualizado)
+        public ActionResult Edit(int id, [Bind(Include = "Texto")] Comment comentarioAtualizado)
         {
             var comentario = _comentarios.FirstOrDefault(c => c.Id == id);
             if (comentario == null)

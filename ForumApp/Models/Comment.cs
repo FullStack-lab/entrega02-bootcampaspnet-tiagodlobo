@@ -3,19 +3,19 @@ using System.Collections.Generic;
 
 namespace ForumApp.Models
 {
-    public class Comentario
+    public class Comment
     {
         public int Id { get; set; }
         public string Texto { get; set; }
         public string Autor { get; set; }
         public DateTime DataCriacao { get; set; }
         public int? ComentarioId { get; set; }
-        public virtual Comentario ComentarioPrincipal { get; set; }
-        public virtual ICollection<Comentario> Respostas { get; set; }
+        public virtual Comment ComentarioPrincipal { get; set; }
+        public virtual ICollection<Comment> Respostas { get; set; }
 
-        public Comentario()
+        public Comment()
         {
-            Respostas = new List<Comentario>();
+            Respostas = new List<Comment>();
             DataCriacao = DateTime.Now;
         }
     }
